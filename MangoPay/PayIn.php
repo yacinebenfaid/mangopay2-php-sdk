@@ -37,6 +37,12 @@ class PayIn extends Transaction
     public $ExecutionDetails;
 
     /**
+     * An optional description for the bank statement
+     * @var string
+     */
+    public $StatementDescriptor;
+
+    /**
      * Get array with mapping which property depends on other property
      * @return array
      */
